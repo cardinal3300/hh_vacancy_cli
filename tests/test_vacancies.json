@@ -1,0 +1,10 @@
+[
+    {
+        "title": "Dev",
+        "url": "https://url",
+        "salary_from": 100000,
+        "salary_to": 150000,
+        "currency": "RUB",
+        "description": "Test"
+    }
+]

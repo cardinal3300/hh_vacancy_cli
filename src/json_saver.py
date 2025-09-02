@@ -1,50 +1,51 @@
 import json
-from pathlib import Path
-from typing import Any
+import os
+from typing import Any, Dict, List
+
+from src.saver_base import SaverBase
 
 
-class JSONSaver:
+class JSONSaver(SaverBase):
     """
-    Класс для сохранения, чтения и удаления вакансий в JSON-файле.
-    Используется в связке с Parser.
+    Класс для работы с JSON-файлами.
+    Реализует добавление, получение и удаление вакансий.
     """
 
-    def __init__(self, filename: str = "data/vacancies.json"):
-        self.file = Path(filename)
-        self.file.parent.mkdir(parents=True, exist_ok=True)  # создаём папку, если её нет
+    def __init__(self, filename: str = "vacancies.json") -> None:
+        """
+        Инициализация экземпляра.
+        :param filename: имя файла для сохранения вакансий.
+        """
+        self.__filename = filename
+        # создаём файл, если его нет
+        if not os.path.exists(self.__filename):
+            with open(self.__filename, "w", encoding="utf-8") as f:
+                json.dump([], f, ensure_ascii=False, indent=4)
 
-    def _load(self) -> list[dict]:
-        """Загружает список вакансий из JSON."""
-        if self.file.exists():
-            with open(self.file, "r", encoding="utf-8") as f:
-                return json.load(f)
-        return []
+    def add_vacancy(self, vacancy: Dict[str, Any]) -> None:
+        """
+        Добавляет вакансию в JSON-файл.
+        Исключает дублирование по URL.
+        """
+        vacancies = self.get_vacancies()
+        if any(v["url"] == vacancy["url"] for v in vacancies):
+            return
+        vacancies.append(vacancy)
+        with open(self.__filename, "w", encoding="utf-8") as f:
+            json.dump(vacancies, f, ensure_ascii=False, indent=4)
 
-    def _save(self, data: list[dict]) -> None:
-        """Сохраняет список вакансий в JSON."""
-        with open(self.file, "w", encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
+    def get_vacancies(self) -> List[Dict[str, Any]]:
+        """
+        Загружает список вакансий из JSON-файла.
+        """
+        with open(self.__filename, "r", encoding="utf-8") as f:
+            return json.load(f)
 
-    def add_vacancies(self, vacancies: list[dict]) -> None:
-        """Добавляет вакансии в файл."""
-        data = self._load()
-        data.extend(vacancies)
-        self._save(data)
-
-    def get_vacancies(self, criteria: dict[str, Any]) -> list[dict]:
-        """Фильтрует вакансии по критериям (ключ=значение)."""
-        data = self._load()
-        if not criteria:
-            return data
-
-        result = []
-        for v in data:
-            if all(str(v.get(k, "")).lower().find(str(val).lower()) != -1 for k, val in criteria.items()):
-                result.append(v)
-        return result
-
-    def delete_vacancy(self, vacancy: dict) -> None:
-        """Удаляет вакансию по URL."""
-        data = self._load()
-        data = [v for v in data if v.get("url") != vacancy.get("url")]
-        self._save(data)
+    def delete_vacancy(self, vacancy_url: str) -> None:
+        """
+        Удаляет вакансию по URL из файла.
+        """
+        vacancies = self.get_vacancies()
+        vacancies = [v for v in vacancies if v["url"] != vacancy_url]
+        with open(self.__filename, "w", encoding="utf-8") as f:
+            json.dump(vacancies, f, ensure_ascii=False, indent=4)

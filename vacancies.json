@@ -1,0 +1,258 @@
+[
+    {
+        "title": "Dasturchi",
+        "url": "https://hh.ru/vacancy/124470522",
+        "salary_from": null,
+        "salary_to": null,
+        "currency": "RUB",
+        "description": "Разработка и поддержка веб-приложений. Проектирование архитектуры программных решений. Интеграция с внешними API и сервисами. Оптимизация кода для повышения производительности..."
+    },
+    {
+        "title": "Python-разработчик",
+        "url": "https://hh.ru/vacancy/124747909",
+        "salary_from": null,
+        "salary_to": null,
+        "currency": "RUB",
+        "description": "Разработка API на fastapi для ML-моделей и других приложений. Развёртывать и поддерживать ML-платформу (MLflow / Airflow, vLLM, Nexus Repo). "
+    },
+    {
+        "title": "Middle/Senior Backend Developer (Python)",
+        "url": "https://hh.ru/vacancy/124702015",
+        "salary_from": 800000,
+        "salary_to": 1200000,
+        "currency": "KZT",
+        "description": "Разработка и оптимизация бэкенда на <highlighttext>Python</highlighttext> (FastAPI/Django/FastStream). Проектирование и оптимизация микросервисной архитектуры. Работа с PostgreSQL: проектирование схем, оптимизация..."
+    },
+    {
+        "title": "Chief Technology Officer (CTO) / Технический директор",
+        "url": "https://hh.ru/vacancy/124727952",
+        "salary_from": null,
+        "salary_to": null,
+        "currency": "RUB",
+        "description": "Прогнозирование спроса, автоматизация кухни, контроль качества, внутренняя аналитика. В портфеле проекты для федеральных сетей (Ростикс и др.), в том числе..."
+    },
+    {
+        "title": "Project Manager (FinTech) / Руководитель проектов в финтех-сфере",
+        "url": "https://hh.ru/vacancy/124748296",
+        "salary_from": 470000,
+        "salary_to": null,
+        "currency": "RUR",
+        "description": "ведение разноплановых проектом полного и частичного цикла. - организация эффективного взаимодействия между отделами разработки, аналитики, управления продуктом и маркетинга. - "
+    },
+    {
+        "title": "Golang-разработчик",
+        "url": "https://hh.ru/vacancy/124729151",
+        "salary_from": null,
+        "salary_to": null,
+        "currency": "RUB",
+        "description": "Разработка серверной части высоконагруженной рекламной сети на Golang. Поддержка существующего кода. Оптимизация сервисов (CPU, память, сеть)."
+    },
+    {
+        "title": "Team Lead / Руководитель разработки",
+        "url": "https://hh.ru/vacancy/124783047",
+        "salary_from": 500000,
+        "salary_to": null,
+        "currency": "RUR",
+        "description": "Руководство командой разработки 20+ человек (backend, frontend, mobile). Проектирование и развитие микросервисной архитектуры. Управление проектами по разработке и внедрению..."
+    },
+    {
+        "title": "Python-разработчик",
+        "url": "https://hh.ru/vacancy/124774811",
+        "salary_from": null,
+        "salary_to": null,
+        "currency": "RUB",
+        "description": "Разрабатывать с нуля end-to-end пайплайн обработки и анализа текстовых данных: от приема сырых JSON-расшифровок до визуализации инсайтов. "
+    },
+    {
+        "title": "Middle QA engineer",
+        "url": "https://hh.ru/vacancy/124726853",
+        "salary_from": null,
+        "salary_to": null,
+        "currency": "RUB",
+        "description": "Тестирование микросервисно-ориентированных приложений. Работы с Swagger, Kibana, Grafana, Clickhouse, Oracle, Nginx, Unit-тестирование. Написание простых скриптов (bash, shell, <highlighttext>python</highlighttext>)."
+    },
+    {
+        "title": "Front-end разработчик (REACT)",
+        "url": "https://hh.ru/vacancy/124555626",
+        "salary_from": null,
+        "salary_to": null,
+        "currency": "RUB",
+        "description": "Содействие пользователям, заказчику, в том числе внешним клиентам, бизнес и системным аналитикам - в достижении результатов их работы (концепция, требования, архитектура..."
+    },
+    {
+        "title": "Продавец-консультант",
+        "url": "https://hh.ru/vacancy/124750359",
+        "salary_from": 8000000,
+        "salary_to": null,
+        "currency": "UZS",
+        "description": "Встреча посетителей и консультация по общим вопросам, знакомство покупателя с продавцом. Вежливо обслуживать и соблюдать стандарты обслуживания покупателей. "
+    },
+    {
+        "title": "Продавец-кассир",
+        "url": "https://hh.ru/vacancy/124307226",
+        "salary_from": 5500000,
+        "salary_to": 8000000,
+        "currency": "UZS",
+        "description": "Продавать свежие продукты и помогать клиентам с выбором. ️ Встречать покупателей доброжелательно. ️ Делать витрину красивой и аппетитной. ️ Поддерживать чистоту и порядок..."
+    },
+    {
+        "title": "Продавец-консультант",
+        "url": "https://hh.ru/vacancy/124539434",
+        "salary_from": 1500,
+        "salary_to": 2500,
+        "currency": "BYR",
+        "description": "Работа с кассой. Работа с клиентами. Лояльность руководства."
+    },
+    {
+        "title": "Продавщица (продавец) в Аэропорт Ташкент (Терминал 2)",
+        "url": "https://hh.ru/vacancy/124668893",
+        "salary_from": 5000000,
+        "salary_to": 8000000,
+        "currency": "UZS",
+        "description": "Обслуживание и консультирование авиапассажиров. Ведение отчетности и работа на кассе. Инвентаризация и мерчандайзинг."
+    },
+    {
+        "title": "Продавец-консультант в салон связи Т2",
+        "url": "https://hh.ru/vacancy/122785225",
+        "salary_from": 80000,
+        "salary_to": 170000,
+        "currency": "RUR",
+        "description": "консультированием клиентов салона, обслуживанием действующих абонентов. ️продажей смартфонов, аксессуаров, подключением услуг компании, оформлением сим-карт, подключением домашнего интернета. ️"
+    },
+    {
+        "title": "Программист 1С",
+        "url": "https://hh.ru/vacancy/124476203",
+        "salary_from": 3500,
+        "salary_to": null,
+        "currency": "BYR",
+        "description": "Программирование и администрирование 1С Предприятие 7.7 (да у нас 7.7, но это точно не стандарная 1С). "
+    },
+    {
+        "title": "РНР-разработчик",
+        "url": "https://hh.ru/vacancy/124490300",
+        "salary_from": 500000,
+        "salary_to": 550000,
+        "currency": "KZT",
+        "description": "Подключение телефонии (SIP, REST API, интеграция с АТС). Подключение почты, мессенджеров, маркетплейсов, платёжных систем. Интеграция с 1С, складскими и..."
+    },
+    {
+        "title": "Инженер-програмист АСУ ТП и КИПиА промышленных установок",
+        "url": "https://hh.ru/vacancy/124532596",
+        "salary_from": 200000,
+        "salary_to": null,
+        "currency": "RUR",
+        "description": "Разработка проектной и рабочей документации (разделы ИОС 5,ИОС 7, АК, АТХ, АОВ, АСКУЭ, АСОДУ, АСТУЭ) в соответствии с заданием..."
+    },
+    {
+        "title": "Контент-менеджер маркетплейсов (ОФИС)",
+        "url": "https://hh.ru/vacancy/124271684",
+        "salary_from": 90000,
+        "salary_to": null,
+        "currency": "RUR",
+        "description": "Создание качественного текстового контента на Wildberries, Ozon, Яндекс.Маркет: писать цепляющие заголовки и описания с SEO. Создание карточек товаров с нуля. "
+    },
+    {
+        "title": "Инженер-программист АСУ ТП",
+        "url": "https://hh.ru/vacancy/105517017",
+        "salary_from": 120000,
+        "salary_to": 200000,
+        "currency": "RUR",
+        "description": "Разработка проектов АСУ ТП. Программирование PLC и HMI. Создание мнемосхем для HMI и SCADA. Модернизация ПО существующих АСУ ТП. "
+    },
+    {
+        "title": "Програмист 1С / Специалист технической поддержки 1С",
+        "url": "https://hh.ru/vacancy/122801852",
+        "salary_from": 130000,
+        "salary_to": null,
+        "currency": "RUR",
+        "description": "Консультация по телефону сотрудников компании по программе 1С ERP. Работам с аналитиками и доработка функционала 1С:ERP 2..."
+    },
+    {
+        "title": "Инженер-программист АСУ ТП",
+        "url": "https://hh.ru/vacancy/105517019",
+        "salary_from": 120000,
+        "salary_to": 200000,
+        "currency": "RUR",
+        "description": "Разработка проектов АСУ ТП. Программирование PLC и HMI. Создание мнемосхем для HMI и SCADA. Модернизация ПО существующих АСУ ТП. "
+    },
+    {
+        "title": "Инженер-программист АСУ ТП",
+        "url": "https://hh.ru/vacancy/105517018",
+        "salary_from": 120000,
+        "salary_to": 200000,
+        "currency": "RUR",
+        "description": "Разработка проектов АСУ ТП. Программирование PLC и HMI. Создание мнемосхем для HMI и SCADA. Модернизация ПО существующих АСУ ТП. "
+    },
+    {
+        "title": "Frontend-разработчик",
+        "url": "https://hh.ru/vacancy/124535291",
+        "salary_from": 2000,
+        "salary_to": null,
+        "currency": "BYR",
+        "description": "Адаптивная верстка. Верстка сайтов согласно макетам. Интеграция верстки на CMS. Работа с системой управления проектами. Правка верстки согласно рекомендациям. "
+    },
+    {
+        "title": "Программист, IT-поддержка и развитие информационных систем",
+        "url": "https://hh.ru/vacancy/124573413",
+        "salary_from": 250000,
+        "salary_to": 400000,
+        "currency": "KZT",
+        "description": "Прием, регистрация и обработка заявок от клиентов по различным каналам связи (электронная почта, чат, телефон, мессенджеры и т.д.). "
+    },
+    {
+        "title": "Web-разработчик",
+        "url": "https://hh.ru/vacancy/124756469",
+        "salary_from": null,
+        "salary_to": null,
+        "currency": "RUB",
+        "description": "Создавать интеграционные сервисы. - Участвовать в реализации новых функций платформы."
+    },
+    {
+        "title": "Java-разработчик",
+        "url": "https://hh.ru/vacancy/124461520",
+        "salary_from": null,
+        "salary_to": null,
+        "currency": "RUB",
+        "description": "Разрабатывать и развивать backend на Java (Spring Boot). CI/CD (Jenkins, GitLab CI)."
+    },
+    {
+        "title": "Junior Frontend разработчик",
+        "url": "https://hh.ru/vacancy/124778427",
+        "salary_from": null,
+        "salary_to": 500000,
+        "currency": "KZT",
+        "description": "Оптимизация производительности и качества кода. Взаимодействие с backend-<highlighttext>разработчиками</highlighttext>, дизайнерами и продуктовой командой. Участие в планировании релизов и распределении нагрузки..."
+    },
+    {
+        "title": "Backend-разработчик на Java",
+        "url": "https://hh.ru/vacancy/124788635",
+        "salary_from": null,
+        "salary_to": null,
+        "currency": "RUB",
+        "description": "Разработка сервисов высоконагруженной системы с петабайтным хранилищем и кластером PostgreSQL. Интеграция приложений с микросервисами и функциональными узлами системы. "
+    },
+    {
+        "title": "Java-разработчик",
+        "url": "https://hh.ru/vacancy/124789400",
+        "salary_from": null,
+        "salary_to": null,
+        "currency": "RUB",
+        "description": "Проектирование и разработка программного обеспечения для контакт-центров и унифицированных коммуникаций с использованием языка Java, Фреймворк Spring очень желателен. "
+    },
+    {
+        "title": "Front-end developer",
+        "url": "https://hh.ru/vacancy/124580127",
+        "salary_from": null,
+        "salary_to": null,
+        "currency": "RUB",
+        "description": "Rasmiy ish joyi (to‘liq stavka yoki shartnoma asosida). Qulay ofis yoki remote (masofadan turib ishlash) imkoniyati. Do‘stona va..."
+    },
+    {
+        "title": "Frontend разработчик React",
+        "url": "https://hh.ru/vacancy/124759861",
+        "salary_from": null,
+        "salary_to": null,
+        "currency": "RUB",
+        "description": "Проведение code-review. Техническая оценка задач. Участие в написании документации проекта. Взаимодействие с коллегами: <highlighttext>разработчиками</highlighttext>, аналитиками, тестировщиками, дизайнерами."
+    }
+]
