@@ -7,7 +7,6 @@ class SaverBase(ABC):
     Абстрактный класс для работы с файлами.
     Определяет общий интерфейс для сохранения, получения и удаления данных.
     """
-
     @abstractmethod
     def add_vacancy(self, vacancy: Dict[str, Any]) -> None:
         """

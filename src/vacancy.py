@@ -6,7 +6,6 @@ from typing import Any, Dict, List
 class Vacancy:
     """
     Класс для представления вакансии.
-
     Использует __slots__ для экономии памяти.
     Атрибуты:
         __title (str): Название вакансии.
@@ -16,7 +15,6 @@ class Vacancy:
         __currency (str): Валюта зарплаты.
         __description (str): Описание вакансии.
     """
-
     __slots__ = (
         "__title",
         "__url",
