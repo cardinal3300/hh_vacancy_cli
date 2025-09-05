@@ -2,6 +2,7 @@ from src.vacancy import Vacancy
 
 
 def test_vacancy_creation():
+    """Тест для создания вакансий."""
     vac = Vacancy(
         title="Python Developer",
         url="http://hh.ru/vacancy/123",
@@ -20,6 +21,7 @@ def test_vacancy_creation():
 
 
 def test_vacancy_comparison():
+    """тест для сравнения вакансий."""
     vac1 = Vacancy("A", "https://url1", 100000, 200000, "RUB")
     vac2 = Vacancy("B", "https://url2", 150000, 250000, "RUB")
     assert vac1 < vac2
@@ -31,6 +33,7 @@ def test_vacancy_comparison():
 
 
 def test_cast_to_object_list():
+    """Тест приведения объектов к списку."""
     raw = [
         {
             "name": "Dev",
