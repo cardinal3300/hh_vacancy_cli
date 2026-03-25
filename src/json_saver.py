@@ -10,6 +10,7 @@ class JSONSaver(SaverBase):
     Класс для работы с JSON-файлами.
     Реализует добавление, получение и удаление вакансий.
     """
+
     def __init__(self, filename: str = "vacancies.json") -> None:
         """
         Инициализация экземпляра.

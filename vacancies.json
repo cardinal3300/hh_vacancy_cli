@@ -254,5 +254,85 @@
         "salary_to": null,
         "currency": "RUB",
         "description": "Проведение code-review. Техническая оценка задач. Участие в написании документации проекта. Взаимодействие с коллегами: <highlighttext>разработчиками</highlighttext>, аналитиками, тестировщиками, дизайнерами."
+    },
+    {
+        "title": "Web-программист - стажер",
+        "url": "https://hh.ru/vacancy/131478268",
+        "salary_from": 100000,
+        "salary_to": 100000,
+        "currency": "KZT",
+        "description": "Понимать, как устроен RESTfull API, его правильное проектирование и <highlighttext>разработка</highlighttext>. Анализировать нагрузки на систему и постоянно улучшать продукт. "
+    },
+    {
+        "title": "Python Django developer",
+        "url": "https://hh.ru/vacancy/131515272",
+        "salary_from": null,
+        "salary_to": 1000,
+        "currency": "USD",
+        "description": "Проектирование, <highlighttext>разработка</highlighttext> и поддержка backend-приложений на Django и Django REST Framework. <highlighttext>Разработка</highlighttext> REST API, интеграция с front-end (React..."
+    },
+    {
+        "title": "Data аналитик",
+        "url": "https://hh.ru/vacancy/131535430",
+        "salary_from": 240000,
+        "salary_to": 270000,
+        "currency": "RUR",
+        "description": "Работы с реляционными базами данных Postgresql/MS SQL. Участие в <highlighttext>разработке</highlighttext> ETL-процессов. Работы с аналитической базой данных ClickHouse. "
+    },
+    {
+        "title": "QA manual (backend)",
+        "url": "https://hh.ru/vacancy/131537534",
+        "salary_from": 120000,
+        "salary_to": null,
+        "currency": "RUR",
+        "description": "Проводить ручные тесты протоколов взаимодействия (API) ПО. Написание и поддержка тестовой документации. Взаимодействовать с командой <highlighttext>разработки</highlighttext> ПО. Собеседование с Лидом..."
+    },
+    {
+        "title": "Программист-разработчик (стажер)",
+        "url": "https://hh.ru/vacancy/131546554",
+        "salary_from": 120000,
+        "salary_to": 120000,
+        "currency": "RUR",
+        "description": "<highlighttext>Разработка</highlighttext> нового и сопровождение текущего функционала учетно-аналитических систем (объектов БД и пользовательских интерфейсов). <highlighttext>Разработка</highlighttext> и сопровождения процедур формирования отчетов. "
+    },
+    {
+        "title": "AI Engineer",
+        "url": "https://hh.ru/vacancy/131502520",
+        "salary_from": null,
+        "salary_to": null,
+        "currency": "RUB",
+        "description": "Участие в соревнованиях на Kaggle (высокий рейтинг)."
+    },
+    {
+        "title": "Исследователь алгоритмов машинного обучения Data Scientist / ML Researcher",
+        "url": "https://hh.ru/vacancy/131547222",
+        "salary_from": null,
+        "salary_to": null,
+        "currency": "RUB",
+        "description": "<highlighttext>Разработка</highlighttext> и реализация, начиная с определения архитектуры, модели машинного обучения для прогнозирования результата ортодонтического лечения на основании 3D датасета..."
+    },
+    {
+        "title": "Разработчик Python backend developer fullstack",
+        "url": "https://hh.ru/vacancy/131506622",
+        "salary_from": null,
+        "salary_to": null,
+        "currency": "RUB",
+        "description": "Доработка и дальнейшее поддержание работы существующего центра мониторинга (отслеживание нахождения спецтехники). Внедрение новых идей по развитию центра мониторинга (ИИ и..."
+    },
+    {
+        "title": "Python-разработчик",
+        "url": "https://hh.ru/vacancy/130845553",
+        "salary_from": null,
+        "salary_to": null,
+        "currency": "RUB",
+        "description": "Backend на <highlighttext>Python</highlighttext> (FastAPI). PostgreSQL (SQLAlchemy, миграции). Интеграции с LLM (LangChain / LangGraph). Проектирование простой state machine логики. JWT-авторизация. "
+    },
+    {
+        "title": "Backend разработчик в Спорт Тех",
+        "url": "https://hh.ru/vacancy/131485494",
+        "salary_from": null,
+        "salary_to": null,
+        "currency": "RUB",
+        "description": "Разрабатывать и поддерживать backend-сервисы на <highlighttext>Python</highlighttext> (FastAPI). Проектировать и развивать API для внутренних и внешних сервисов. Работать с потоками..."
     }
 ]
