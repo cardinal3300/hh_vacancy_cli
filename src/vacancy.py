@@ -15,6 +15,7 @@ class Vacancy:
         __currency (str): Валюта зарплаты.
         __description (str): Описание вакансии.
     """
+
     __slots__ = (
         "__title",
         "__url",
@@ -139,12 +140,12 @@ class Vacancy:
     # ------------------ представление ------------------
 
     def __repr__(self) -> str:
-        return (
-            f"Vacancy(title='{self.__title}', salary={self.average_salary()} {self.__currency})"
-        )
+        return f"Vacancy(title='{self.__title}', salary={self.average_salary()} {self.__currency})"
 
     def __str__(self) -> str:
-        return f"{self.__title} — {self.average_salary()} {self.__currency} ({self.__url})"
+        return (
+            f"{self.__title} — {self.average_salary()} {self.__currency} ({self.__url})"
+        )
 
     # ------------------ класс методы ------------------
 
